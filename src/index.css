@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0d1b2a;
+}
+
+body {
+  @apply min-h-screen text-[#0d1b2a] bg-white relative overflow-x-hidden;
+}
+
+/* Base typography refinements */
+h1, h2, h3 {
+  @apply tracking-tight;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  @apply animate-[float_6s_ease-in-out_infinite];
+}
