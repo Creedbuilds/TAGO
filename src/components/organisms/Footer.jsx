@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Company Links */}
+        
           <div className="space-y-6">
             <h4 className="text-xs font-bold uppercase tracking-widest text-slate-100">Company</h4>
             <ul className="space-y-4 text-sm text-slate-400 uppercase">
@@ -27,7 +27,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Support Links */}
+          
           <div className="space-y-6">
             <h4 className="text-xs font-bold uppercase tracking-widest text-slate-100">Support</h4>
             <ul className="space-y-4 text-sm text-slate-400 uppercase">
@@ -39,17 +39,17 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Connect Info */}
+        
           <div className="space-y-6">
             <h4 className="text-xs font-bold uppercase tracking-widest text-slate-100">Connect</h4>
             <ul className="space-y-4 text-sm text-slate-400 uppercase tracking-wider">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-blue-500 shrink-0" />
-                <a href="mailto:hello@tago.com" className="hover:text-blue-500 transition-colors">hello@tago.com</a>
+                <a href="mailto:hello@tago.com" className="hover:text-blue-500 transition-colors">info@tagocoresolutions.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-blue-500 shrink-0" />
-                <a href="tel:+23470633335677" className="hover:text-blue-500 transition-colors">+234 706 333 35677</a>
+                <a href="tel:+23470633335677" className="hover:text-blue-500 transition-colors">+234 706 333 30877</a>
               </li>
             </ul>
           </div>
