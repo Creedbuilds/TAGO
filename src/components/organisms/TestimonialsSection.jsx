@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import TestimonialCard from '../molecules/TestimonialCard';
 import aminaImg from '../../assets/Amina.png';
+import  ifeomaImg from '../../assets/ifeoma.png';
 import tundeImg from '../../assets/tunde.png';
+import okaforImg from '../../assets/Okafor.jpg';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const TestimonialsSection = () => {
@@ -23,7 +25,7 @@ const TestimonialsSection = () => {
       name: "Chinedu Okafor",
       role: "Product Lead, Fintech Company",
       text: "Working with Tago transformed how we think about technology. They didn't just develop our app; they engineered a structured system that supports our current operations and future growth.",
-      image: aminaImg
+      image: okaforImg
     },
     {
       name: "Tunde Adewale",
@@ -41,7 +43,7 @@ const TestimonialsSection = () => {
       name: "Ifeoma Nwankwo",
       role: "Head of Tech, Financial Services",
       text: "Tago demonstrated exceptional technical depth from the very beginning. Their architecture-first approach ensured our platform was stable, secure, and ready to handle rapid growth.",
-      image: tundeImg
+      image: ifeomaImg
     },
   ];
 
