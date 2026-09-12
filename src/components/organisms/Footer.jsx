@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/*copyright */}
+      
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[10px] text-slate-500 uppercase tracking-widest font-medium">
             © 2026 TAGO CORE SOLUTIONS. ALL RIGHTS RESERVED.

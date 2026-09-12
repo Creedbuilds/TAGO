@@ -6,7 +6,7 @@ import heroRectangle from '../../assets/herorectangle.png';
 const HeroSection = () => {
   return (
     <section className="relative pt-24 pb-0 overflow-hidden w-full min-h-[800px] lg:min-h-[900px] flex items-end">
-      {/* Rectangle */}
+    
       <div className="absolute left-0 bottom-0 w-full lg:w-auto z-0 pointer-events-none">
         <img 
           src={heroRectangle} 
@@ -18,7 +18,7 @@ const HeroSection = () => {
 
       <div className="w-full flex flex-col lg:grid lg:grid-cols-5 items-end relative z-10 px-8 lg:px-16">
         
-        {/* text */}
+        
         <div className="lg:col-start-1 lg:col-span-3 text-left max-w-[1777px] h-fit mb-24 lg:mb-48">
           <h1 className="text-3xl md:text-5xl lg:text-[54px] font-bold leading-[1.2] lg:leading-[1.1] text-primary tracking-tight mb-10 lg:mb-10">
             Designing Structured <br className="block md:hidden" />

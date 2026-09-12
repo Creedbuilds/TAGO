@@ -7,7 +7,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
-        {/* Left Content */}
+      
         <div className="flex-1 space-y-8">
           <div>
             <h2 className="text-4xl font-bold text-primary mb-6">About us</h2>

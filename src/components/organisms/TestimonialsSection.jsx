@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
       name: "Chinedu Okafor",
       role: "Product Lead, Fintech Company",
       text: "Working with Tago transformed how we think about technology. They didn't just develop our app; they engineered a structured system that supports our current operations and future growth.",
-      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Chinedu"
+      image: aminaImg
     },
     {
       name: "Tunde Adewale",
@@ -41,8 +41,8 @@ const TestimonialsSection = () => {
       name: "Ifeoma Nwankwo",
       role: "Head of Tech, Financial Services",
       text: "Tago demonstrated exceptional technical depth from the very beginning. Their architecture-first approach ensured our platform was stable, secure, and ready to handle rapid growth.",
-      image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ifeoma"
-    }
+      image: tundeImg
+    },
   ];
 
   return (
